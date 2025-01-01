@@ -86,7 +86,7 @@ public class Selenium_Task_30 {
 					Login.click();
 					
 					Thread.sleep(2000);
-					 // 5. Verify the current URL == https://katalon-demo-cura.herokuapp.com/#appointment
+				 // 5. Verify the current URL == https://katalon-demo-cura.herokuapp.com/#appointment
 					
 					String currURL = driver.getCurrentUrl();
 					Assert.assertEquals(currURL, "https://katalon-demo-cura.herokuapp.com/#appointment");
