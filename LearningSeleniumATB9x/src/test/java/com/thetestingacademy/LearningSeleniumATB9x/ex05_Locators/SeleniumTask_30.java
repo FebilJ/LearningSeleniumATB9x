@@ -21,7 +21,7 @@ import io.qameta.allure.Description;
 		 // 4. Find the Login Button & Click
 		 // 5. Verify the current URL == https://katalon-demo-cura.herokuapp.com/#appointment
 
-public class Selenium_Task_30 {
+public class SeleniumTask_30 {
 	
 				public static void main (String arg[]) throws Exception {
 					test_negative_katalon_login();
