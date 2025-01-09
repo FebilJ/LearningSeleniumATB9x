@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-09T22:22:56 IST" name="Default suite" finished-at="2025-01-09T22:23:05 IST" duration-ms="9336">
+    <groups>
+      <group name="QA">
+        <method signature="TestSelenium22.test_webTables()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22@4722ef0c]" name="test_webTables" class="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22"/>
+      </group> <!-- QA -->
+    </groups>
+    <test started-at="2025-01-09T22:22:56 IST" name="Default test" finished-at="2025-01-09T22:23:05 IST" duration-ms="9336">
+      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22">
+        <test-method signature="test_webTables()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22@4722ef0c]" started-at="2025-01-09T22:22:56 IST" name="test_webTables" finished-at="2025-01-09T22:23:05 IST" duration-ms="9003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_webTables -->
+      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
