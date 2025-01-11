@@ -2,19 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-09T22:22:56 IST" name="Default suite" finished-at="2025-01-09T22:23:05 IST" duration-ms="9336">
+  <suite started-at="2025-01-11T16:12:34 IST" name="Default suite" finished-at="2025-01-11T16:21:28 IST" duration-ms="533427">
     <groups>
-      <group name="QA">
-        <method signature="TestSelenium22.test_webTables()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22@4722ef0c]" name="test_webTables" class="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22"/>
-      </group> <!-- QA -->
     </groups>
-    <test started-at="2025-01-09T22:22:56 IST" name="Default test" finished-at="2025-01-09T22:23:05 IST" duration-ms="9336">
-      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22">
-        <test-method signature="test_webTables()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22@4722ef0c]" started-at="2025-01-09T22:22:56 IST" name="test_webTables" finished-at="2025-01-09T22:23:05 IST" duration-ms="9003" status="PASS">
+    <test started-at="2025-01-11T16:12:34 IST" name="Default test" finished-at="2025-01-11T16:21:28 IST" duration-ms="533427">
+      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025@1b1cfb87]" started-at="2025-01-11T16:12:34 IST" name="setupBrowser" finished-at="2025-01-11T16:12:37 IST" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_webTables -->
-      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.TestSelenium22 -->
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="test_orange_HRM_login()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025@1b1cfb87]" started-at="2025-01-11T16:12:37 IST" name="test_orange_HRM_login" finished-at="2025-01-11T16:21:27 IST" duration-ms="529928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_orange_HRM_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025@1b1cfb87]" started-at="2025-01-11T16:21:27 IST" name="tearDown" finished-at="2025-01-11T16:21:28 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
