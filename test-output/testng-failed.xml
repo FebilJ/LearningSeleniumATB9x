@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025">
+      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium26">
         <methods>
-          <include name="test_orange_HRM_login"/>
-          <include name="setupBrowser"/>
           <include name="tearDown"/>
+          <include name="setupBrowser"/>
+          <include name="test_spicejet"/>
         </methods>
-      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex07_WebTables.SeleniumTask_3_1_2025 -->
+      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium26 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
