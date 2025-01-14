@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-13T22:15:00 IST" name="Default suite" finished-at="2025-01-13T22:15:23 IST" duration-ms="22673">
+  <suite started-at="2025-01-14T16:52:55 IST" name="Default suite" finished-at="2025-01-14T16:53:39 IST" duration-ms="43969">
     <groups>
     </groups>
-    <test started-at="2025-01-13T22:15:00 IST" name="Default test" finished-at="2025-01-13T22:15:23 IST" duration-ms="22673">
-      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium27">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium27@1b1cfb87]" started-at="2025-01-13T22:15:00 IST" name="setupBrowser" finished-at="2025-01-13T22:15:09 IST" duration-ms="9056" status="PASS">
+    <test started-at="2025-01-14T16:52:55 IST" name="Default test" finished-at="2025-01-14T16:53:39 IST" duration-ms="43969">
+      <class name="com.thetestingacademy.LearningSeleniumATB9x.ex10_Windows.TestSelenium28">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex10_Windows.TestSelenium28@20b2475a]" started-at="2025-01-14T16:52:55 IST" name="setupBrowser" finished-at="2025-01-14T16:53:17 IST" duration-ms="21307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="test_mmt()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium27@1b1cfb87]" started-at="2025-01-13T22:15:09 IST" name="test_mmt" finished-at="2025-01-13T22:15:22 IST" duration-ms="12510" status="PASS">
+        <test-method signature="test_windowHandlesComplex()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex10_Windows.TestSelenium28@20b2475a]" started-at="2025-01-14T16:53:17 IST" name="test_windowHandlesComplex" finished-at="2025-01-14T16:53:38 IST" duration-ms="21535" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_mmt -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium27@1b1cfb87]" started-at="2025-01-13T22:15:22 IST" name="tearDown" finished-at="2025-01-13T22:15:23 IST" duration-ms="674" status="PASS">
+        </test-method> <!-- test_windowHandlesComplex -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.thetestingacademy.LearningSeleniumATB9x.ex10_Windows.TestSelenium28@20b2475a]" started-at="2025-01-14T16:53:39 IST" name="tearDown" finished-at="2025-01-14T16:53:39 IST" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex09_ActionsClass.TestSelenium27 -->
+      </class> <!-- com.thetestingacademy.LearningSeleniumATB9x.ex10_Windows.TestSelenium28 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

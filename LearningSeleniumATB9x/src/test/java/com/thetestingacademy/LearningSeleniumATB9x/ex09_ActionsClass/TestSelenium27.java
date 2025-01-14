@@ -37,7 +37,7 @@ public class TestSelenium27 {
 		        driver = new ChromeDriver(options);
 		        driver.get("https://www.makemytrip.com/");
 		        
-		        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		    }
     
     @Test
@@ -45,24 +45,23 @@ public class TestSelenium27 {
 					
     				//Modal Xpath
     	 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@data-cy='closeModal']")));
-    	 			
     	 			driver.findElement(By.xpath("//span[@data-cy='closeModal']")).click();
+    	 			WebElement fromCity = driver.findElement(By.id("fromCity"));
     	 			
-    	 			 WebElement fromCity = driver.findElement(By.id("fromCity"));
-    	 			 
-    	 			// move to element
- 			        // click
- 			        // sendkeys - BLR
-     				//build().perform();
-    	 			 
     	 	        Actions actions = new Actions(driver);
-    	 	        actions.moveToElement(fromCity).click().sendKeys("del").build().perform();
-    	 			
-    	 	       Thread.sleep(3000);
+    	 	        //actions.moveToElement(fromCity).click().sendKeys("del").build().perform();
+    	 	
+    	 	        actions.moveToElement(fromCity).click().pause(Duration.ofMillis(500)).sendKeys("del").perform();
 
-    	 	        actions.moveToElement(fromCity).keyDown(Keys.ARROW_DOWN).keyDown(Keys.ENTER).perform();
-			    
-			    Thread.sleep(5000);
+	    	 	       Thread.sleep(3000);
+	    	 	  
+	    	 	       actions.moveToElement(fromCity)
+	    	 	      			   .keyDown(Keys.ARROW_DOWN)
+	    	 	      			   .keyDown(Keys.ENTER)
+	    	 	      			   .build()
+	    	 	      			   .perform();
+	    	 	      
+			    //Thread.sleep(5000);
 		       System.out.println("Test Passed");
 		}
 	  @AfterTest
